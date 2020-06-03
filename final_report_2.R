@@ -1,7 +1,7 @@
-load("E:/OneDrive - HKUST Connect/港科课程/第二学期/MATH5472 Computer Age Statistical Inference with Applications/final report/chao.RData")
+load("chao.RData")
 library(varbvs)
 library(glmnet)
-load("E:/OneDrive - HKUST Connect/港科课程/第二学期/MATH5472 Computer Age Statistical Inference with Applications/final report/PCA.RData") # covaraites from python's PCA
+load("PCA.RData")
 
 vbvs = varbvs(X=newX,y=newY,family='gaussian',Z=new_Z)
 
